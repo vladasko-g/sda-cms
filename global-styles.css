@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  background-color: #333;
+  color: #fff;
+}
+
+a,
+a:visited {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.top-navigation {
+  border: 1px solid white;
+  list-style: none;
+  display: flex;
+  margin-top: 0;
+  background-color: #fff;
+}
+.top-navigation > li {
+  padding: 5px 10px;
+}
+.top-navigation > li > a {
+  color: #333;
+}
+
+.post {
+  margin: 20px;
+}
+
+.container {
+  flex-grow: 1;
+}
+
+#fetchPostsButton {
+  width: 240px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  color: white;
+  background: darkred;
+  border: 1px solid darkred;
+}
+#fetchPostsButton:hover {
+  color: darkred;
+  background: white;
+}
