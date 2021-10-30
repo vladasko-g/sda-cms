@@ -13,7 +13,7 @@ function custom_get_post($params)
         'numberposts' => 1,
     );
 
-    $post = queryPosts($args, true);
+    $post = queryPosts($args);
 
     return $post;
 }
@@ -27,7 +27,7 @@ function custom_get_posts($params)
         'posts_per_page' => $posts_per_page,
     );
 
-    $posts = queryPosts($args, false);
+    $posts = queryPosts($args);
 
     return $posts;
 }
