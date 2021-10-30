@@ -12,6 +12,7 @@ function preparePost($the_query)
         'slug' => $post->post_name,
         'date' => $post->post_date,
         'excerpt' => get_the_excerpt(),
+        'featuredImage' => get_the_post_thumbnail_url(),
     ];
 
     return $preparedPost;
