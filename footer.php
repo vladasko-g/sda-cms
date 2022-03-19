@@ -1,9 +1,10 @@
 </div>
 
 <footer class="main-footer">
+    <button id="fetchPostsButton">Fetch and log to console posts</button>
+
     <script src="<?php echo get_template_directory_uri(); ?>/js/index.js"></script>
 
-    <button id="fetchPostsButton">Fetch and log to console posts</button>
     <?php echo wp_nav_menu(
         array(
             "menu" => 'bottom-menu',
