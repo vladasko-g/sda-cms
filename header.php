@@ -6,7 +6,7 @@
     <title><?php bloginfo('title'); ?></title>
     <meta name="description" content="<?php bloginfo('description'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/global-styles.css" />
+    <!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/global-styles.css" /> -->
     <?php wp_head(); ?>
 </head>
 
